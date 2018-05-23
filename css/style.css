@@ -1,0 +1,224 @@
+/* Simple Reset and font settings
+========================================= */
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif; /* Set font */
+	color: #444444;
+	background-color: #ffffff; /* Page colour */
+	font-size: 16px; /* Text size */
+}
+
+p {
+	line-height: 20px;
+}
+
+
+
+/* Main replaces id="wrapper"
+========================================= */
+main {
+	width: 880px;
+	background-color: #ffffff;
+	margin: 0 auto; /* For centering block elements (will not work on 'inline' elements) */
+	overflow: auto; /* Overflow auto is a quick 'clear fix' trick for simple structures like this */
+}
+
+
+
+/* Standard 'Ul' styles used throughout the site
+======================================================= */
+ul {
+	list-style: none;
+	width: 880px;
+	overflow: auto;
+}
+
+ul li {
+	float: left;
+}
+
+ul li img {
+	width: 100%;
+}
+
+
+
+/* Header
+========================================= */
+.social-media {
+	overflow: auto;
+}
+
+.social-media ul {
+	margin-top: 20px;
+	float: right;
+	width: auto;
+}
+
+.social-media ul li
+{
+	margin-left: 15px;	
+}
+
+.social-media ul li img {
+	width: 30px;
+}
+
+.logo {
+	margin: auto;
+	margin-bottom: 30px;
+	text-align: center;
+	width: 100%;
+}
+
+.logo span {
+	font-family: 'Great Vibes', cursive;
+	font-size: 32px;
+	color: #018ab6;
+}
+
+h1 {
+	font-size: 56px;
+	font-family: 'Sorts Mill Goudy', serif;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: lighter;
+	margin: 0 0 50px;
+}
+
+h3 {
+	color: #018ab6;
+	margin: 50px 0 10px 0;
+	font-size: 20px;
+}
+
+
+
+/* Navigation
+========================================= */
+nav ul li {
+	width: 176px; /* 880px divided by 5 gives me 176px */
+	text-align: center;
+	border-top: 1px solid #018ab6;
+	border-bottom: 1px solid #018ab6;
+	height: 30px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	display: block;
+	line-height: 30px; /* Vertically centers text inside the 'li' */
+	color: #018ab6;
+}
+
+nav ul li a:hover,
+nav ul li.active a {
+	background: #018ab6;
+	color: #ffffff;
+}
+
+.image-main {
+	width: 100%;
+}
+
+.content {
+	margin-top: 30px;
+	margin-bottom: 100px;
+	display: inline-block;
+	width: 100%;
+}
+
+
+/* Home page main content area
+========================================= */
+#home-content li {
+	width: 31%;
+	margin: 30px 3.5% 0 0;
+}
+
+#home-content li:last-child {
+	margin-right: 0;
+}
+
+#home-content li a {
+	width: 100%;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	background-color: #018ab6;
+	color: #ffffff;
+	padding: 8px 0;
+	margin-top: 15px;
+}
+
+
+
+/* Gallery page main content area
+========================================= */
+#gallery-content ul li  {
+	margin-top: -4px; /* Compensates for the browser adding 4px to bottom of list items */
+	width: 33.333333333333%;
+}
+
+
+
+/* About Us page main content area
+========================================= */
+#about-us-content p {
+	text-align: justify;
+}
+
+#about-us-content p img {
+	float: right;
+	padding-left: 20px;
+}
+
+
+
+/* Contact page main content area
+========================================= */
+#contact-content ul {
+	float: left;
+	width: 400px;
+	padding-right: 40px;
+}
+
+#contact-content ul li {
+	margin-bottom: 15px;
+}
+
+iframe {
+	float: right;
+	width: 440px;
+	right: 0;
+}
+
+
+
+/* Footer
+========================================= */
+footer {
+	height: 100px;
+	border-top: 1px solid #018ab6; 
+}
+
+footer p {
+	display: inline-block;
+	margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
